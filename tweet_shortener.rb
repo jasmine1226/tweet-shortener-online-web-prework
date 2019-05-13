@@ -19,6 +19,7 @@ def dictionary(word)
     if key.to_s == word
       word = dic[key]
     elsif key.to_s.captalize == word
+      word = dic[key].to_s.captalize
     end
   end
   word
