@@ -18,8 +18,8 @@ def dictionary(word)
   dic.each do |key, value|
     if key.to_s == word
       word = dic[key]
-    elsif key.to_s.captalize == word
-      word = dic[key].to_s.captalize
+    elsif key.to_s.capitalize == word
+      word = dic[key].to_s.capitalize
     end
   end
   word
