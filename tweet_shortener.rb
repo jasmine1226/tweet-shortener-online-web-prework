@@ -19,6 +19,7 @@ def dictionary(word)
         if key == word
       word = dic[key]
       puts word
+      word
     end
   end
   word
