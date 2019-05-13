@@ -23,6 +23,6 @@ def dictionary(word)
   word
 end
 
-def word_substituter
+def word_substituter{tweet}
 
 end
