@@ -22,7 +22,7 @@ def dictionary(word)
       word
     end
   end
-  puts word
+
   word
 end
 
