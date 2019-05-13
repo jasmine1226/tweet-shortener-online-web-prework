@@ -25,8 +25,9 @@ end
 
 def word_substituter(tweet)
   words = tweet.split(" ")
-  short_word = []
+  short_words = []
   words.each do |word|
-    short_word << dictionary(word)
+    short_words << dictionary(word)
   end
+  short_words.join(" ")
 end
