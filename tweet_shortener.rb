@@ -42,4 +42,6 @@ def bulk_tweet_shortener(tweets)
 end
 
 def selective_tweet_shortener(tweets)
+  tweets.each do |tweet|
+  end
 end
