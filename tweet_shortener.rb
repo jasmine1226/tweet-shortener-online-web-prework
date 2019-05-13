@@ -16,6 +16,7 @@ def dictionary(word)
   }
 
   dic.each do |key, value|
+    puts key
     puts word
     if key == word
       word = dic[key]
