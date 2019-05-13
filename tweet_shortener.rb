@@ -14,8 +14,9 @@ def dictionary(word)
     at: '@',
     and: '&'
   }
-
+  
   dic.each do |key, value|
+    puts word
     if key == word
       word = dic[key]
       puts word
