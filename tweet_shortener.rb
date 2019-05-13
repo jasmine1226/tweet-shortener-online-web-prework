@@ -16,12 +16,10 @@ def dictionary(word)
   }
 
   dic.each do |key, value|
-
     if key.to_s == word
       word = dic[key]
     end
   end
-
   word
 end
 
