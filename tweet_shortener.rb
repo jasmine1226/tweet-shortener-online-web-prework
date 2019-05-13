@@ -43,5 +43,8 @@ end
 
 def selective_tweet_shortener(tweets)
   tweets.each do |tweet|
+    puts tweet.length
+    if tweet.length > 140
+
   end
 end
