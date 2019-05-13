@@ -18,7 +18,7 @@ def dictionary(word)
   dic.each do |key, value|
     puts "key = #{key}"
     puts "word = #{word}"
-    if key == word
+    if key.to_s == word
       word = dic[key]
       puts word
       word
