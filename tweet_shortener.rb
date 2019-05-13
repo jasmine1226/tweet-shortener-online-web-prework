@@ -16,14 +16,12 @@ def dictionary(word)
   }
 
   dic.each do |key, value|
-    puts "#{key}: #{value}"
-    if key == word
+        if key == word
       word = dic[key]
-      puts dic[key]
       puts word
     end
   end
-  puts word
+  word
 end
 
 dictionary("you")
