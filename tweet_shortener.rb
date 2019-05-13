@@ -23,9 +23,6 @@ def dictionary(word)
   word
 end
 
-dictionary("you")
-dictionary("apple")
-
 def word_substituter
 
 end
