@@ -19,8 +19,6 @@ def dictionary(word)
 
     if key.to_s == word
       word = dic[key]
-      puts word
-      word
     end
   end
 
