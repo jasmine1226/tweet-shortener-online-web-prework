@@ -40,3 +40,6 @@ def bulk_tweet_shortener(tweets)
   puts short_tweet
   end
 end
+
+def selective_tweet_shortener(tweets)
+end
